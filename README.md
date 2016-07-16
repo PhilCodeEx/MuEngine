@@ -9,3 +9,5 @@ MUEngine Server Requirements:
 - SQL Server 2005/2008 (x32/x64)
 
 - MuEngine Leak Untouch by Jake Tancinco
+
+- jaketancinco@gmail.com
