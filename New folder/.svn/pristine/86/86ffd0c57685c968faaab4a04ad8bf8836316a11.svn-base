@@ -1,9 +1,0 @@
-[pim_setting]
-queue_no		= 4
-workerthread_no		= 4
-
-[odbc_connection]
-mu2003_dbname 		= MU2003_EVENT_DATA
-mu2003_dsn 		= MU2003_EVENT_DB
-mu2003_uid 		= sa
-mu2003_pass 		= 

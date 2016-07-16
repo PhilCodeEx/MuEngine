@@ -1,9 +1,0 @@
-[FtpServerInfo]
-Address 		= 192.168.1.2
-Port    		= 21
-ID      		= anonymous
-PASS			= 
-
-[GameServerInfo]
-ClientVersion 		= 1.01.01
-VersionFileName 	= version.wvd
