@@ -1,5 +1,5 @@
-# MuEngine
-
+# MuEngine S6EP3 & EX700 Plus
+# MuEngine Leak Untouch by Jake Tancinco
 MUEngine Server Requirements:
 
 - Windows Server 2003/2008 (x32/x64)
@@ -8,4 +8,4 @@ MUEngine Server Requirements:
 
 - SQL Server 2005/2008 (x32/x64)
 
-- Jake Tancinco
+- MuEngine Leak Untouch by Jake Tancinco
