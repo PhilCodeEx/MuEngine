@@ -1,0 +1,658 @@
+//------------------------------------------------------//
+//		       Main Options		        //
+//------------------------------------------------------//
+[GameServerInfo]
+Language				= 2	        ; 1-Eng (S6 EP3) / 2-Jpn (S6 EP1)
+ServerType				= 0
+StalkProtocol				= 0
+StalkProtocolID				= gundalz2
+ServerGroupGuildChatting		= 1
+ServerGroupUnionChatting		= 1
+NumberOfMaxUser				= 200
+NumberOfCastleSiegeMaxUser		= 200
+
+
+//------------------------------------------------------//
+//		     General Options		        //
+//------------------------------------------------------//
+AddExperience				= 100
+ItemDropPer				= 35
+MonsterHP				= 0
+ZenDurationTime				= 30
+MonsterHPAdjust				= 0
+
+
+//------------------------------------------------------//
+//		   Master Level Options	      		//
+//------------------------------------------------------//
+ML_AddExperience			= 100
+ML_MinMonsterKillLevel			= 10
+ML_OldScrollDropRate			= 30
+ML_CovenantOfIllusionDropRate		= 30
+ML_AngelKingsPaperDropRate		= 30
+ML_BloodBoneDropRate			= 30
+ML_EyesOfDevilSquareDropRate		= 30
+ML_KeyOfDevilSquareDropRate		= 30
+
+
+//------------------------------------------------------//
+//		   NPC Buffer Options		        //
+//------------------------------------------------------//
+ShadowPhantomMaxLevel		        = 220
+
+
+//------------------------------------------------------//
+//		    Character Options		        //
+//------------------------------------------------------//
+CreateCharacter			        = 1
+CharacterDeleteMinLevel			= 40
+PersonalShopOpen			= 1
+Trade					= 1
+
+
+//------------------------------------------------------//
+//		      Guild Options		        //
+//------------------------------------------------------//
+GuildCreate				= 1
+GuildCreateLevel			= 100
+GuildDestroy				= 1
+CastleOwnerGuildDestroyLimit            = 1
+EnableBattleSoccer			= 1
+
+
+//------------------------------------------------------//
+//		   Anti-Hack Options		        //
+//------------------------------------------------------//
+ItemSerialZeroCheck			= 0             ; Item Zero Serial Checker (0 = Disabled / 1 = Enabled)
+JewelSerialZeroCheck			= 0             ; Jewel Zero Serial Checker (0 = Disabled / 1 = Enabled)
+CheckSpeedHack				= 0             ; Speed Hack Checker [Adjust Attack Speed in Configs/Character.ini] (0 = Disabled / 1 = Enabled)
+CheckSpeedTolerance			= 3
+CheckSpeedHackDetectCountDisconnect	= 3
+CheckPacketSpeed			= 0             ; Packet Speed Checker (0 = Disabled / 1 = Enabled)
+CheckPacketSpeedMaxTime			= 50
+
+
+//------------------------------------------------------//
+//		        NPC Options		        //
+//------------------------------------------------------//
+EnableEventNPCTalk			= 1
+HappyNewYearTalkNpc			= 0
+MerryXMasTalkNpc			= 0
+QuestNPCTeleportTime			= 900
+
+
+//------------------------------------------------------//
+//	          Skill Distance Options		//
+//------------------------------------------------------//
+SkillDistanceCheck			= 1
+SkillDistanceCheckTemp			= 2
+SkillDistanceKick			= 1
+SkillDistanceKickCount			= 5
+SkillDistanceKickCheckTime		= 10
+
+
+//------------------------------------------------------//
+//	               SD Options		        //
+//------------------------------------------------------//
+ShieldSystemOn				= 1
+SDChargingOption			= 1
+DamageDevideToSD			= 90
+DamageDevideToHP			= 10
+ShieldComboMissOptionOn			= 1
+ShieldPotionLv1MixSuccessRate		= 50
+ShieldPotionLv1MixMoney			= 100000
+ShieldPotionLv2MixSuccessRate		= 30
+ShieldPotionLv2MixMoney			= 500000
+ShieldPotionLv3MixSuccessRate		= 30
+ShieldPotionLv3MixMoney			= 1000000
+ShieldGageConstA			= 12
+ShieldGageConstB			= 30
+ShieldAutoRefillOn			= 1
+ShieldAutoRefillOnSafeZone		= 1
+SuccessAttackRateOption			= 20000
+ConstNumberOfShieldPoint		= 20
+CompoundPotionDropOn			= 1
+CompoundPotionLv1DropRate		= 100
+CompoundPotionLv2DropRate		= 80
+CompoundPotionLv3DropRate		= 50
+CompoundPotionLv1DropLevel		= 68
+CompoundPotionLv2DropLevel		= 96
+CompoundPotionLv3DropLevel		= 118
+
+
+//------------------------------------------------------//
+//	          Event Manager Options	                //
+//------------------------------------------------------//
+EventManagerOn				= 1
+
+
+//------------------------------------------------------//
+//	     Character Recuperation Options	        //
+//------------------------------------------------------//
+UseCharacterAutoRecuperationSystem	= 1
+CharacterRecuperationMaxLevel		= 100
+
+
+//------------------------------------------------------//
+//	              Outlaw Options	                //
+//------------------------------------------------------//
+PKTime					= 10
+ApplyHeroSystem                         = 1
+PKItemDrop				= 0
+PKItemDropMinLevel			= 4
+PKItemDropExcItems			= 0
+PKItemDropSocketItems			= 0
+PKItemDropAncientItems			= 0
+PKItemDropWings				= 0
+PKItemDropJewels			= 0
+PKItemDropPets				= 0
+PKLevelIncreaseOff                      = 0
+
+
+//------------------------------------------------------//
+//	             Dark Lord Options	                //
+//------------------------------------------------------//
+IsDropDarkLordItem			= 1
+SleeveOfLordDropRate			= 10
+SleeveOfLordDropLevel			= 86
+SoulOfDarkHorseDropRate			= 10
+SoulOfDarkHorseDropLevel		= 95
+SoulOfDarkSpiritDropRate		= 10
+SoulOfDarkSpiritDropLevel		= 80
+DarkSpiritAddExperience			= 1
+
+
+//------------------------------------------------------//
+//	           Chaos Machine Options	        //
+//------------------------------------------------------//
+ChaosBox				= 1
+ChaosEvent				= 1
+ChaosEventServer		        = 127.0.0.1
+
+
+//------------------------------------------------------//
+//	              Fenrir Options	                //
+//------------------------------------------------------//
+FenrirStuffItemDrop			= 1
+FenrirStuff_01_DropLv_Min		= 0
+FenrirStuff_01_DropLv_Max		= 117
+FenrirStuff_01_DropMap			= 34
+FenrirStuff_01_DropRate			= 200
+FenrirStuff_02_DropLv_Min		= 0
+FenrirStuff_02_DropLv_Max		= 117
+FenrirStuff_02_DropMap			= 34
+FenrirStuff_02_DropRate			= 200
+FenrirStuff_03_DropLv_Min		= 118
+FenrirStuff_03_DropLv_Max		= 400
+FenrirStuff_03_DropMap			= 34
+FenrirStuff_03_DropRate			= 50
+FenrirRepairRate			= 4000
+FenrirDefaultMaxDurSmall		= 200
+FenrirElfMaxDurSmall			= 160
+Fenrir_01Level_MixRate 			= 70
+Fenrir_02Level_MixRate 			= 50
+Fenrir_03Level_MixRate 			= 30
+
+
+//------------------------------------------------------//
+//	             Ribbon Box Options		        //
+//------------------------------------------------------//
+RibbonBoxEvent				= 1
+RedRibbonBoxDropLv_Min			= 12
+RedRibbonBoxDropLv_Max			= 49
+RedRibbonBoxDropRate			= 30
+RedRibbonBoxDropZenRate			= 5000
+RedRibbonBoxDropZen			= 100000
+GreenRibbonBoxDropLv_Min		= 50
+GreenRibbonBoxDropLv_Max		= 69
+GreenRibbonBoxDropRate			= 20
+GreenRibbonBoxDropZenRate		= 4000
+GreenRibbonBoxDropZen			= 400000
+BlueRibbonBoxDropLv_Min			= 70
+BlueRibbonBoxDropLv_Max			= 97
+BlueRibbonBoxDropRate			= 10
+BlueRibbonBoxDropZenRate		= 3000
+BlueRibbonBoxDropZen			= 800000
+
+
+//------------------------------------------------------//
+//	          Chocolate Box Options		        //
+//------------------------------------------------------//
+ChocolateEvent				= 1
+PinkChocolateBoxDropLv_Min		= 12
+PinkChocolateBoxDropLv_Max		= 49
+PinkChocolateBoxDropRate		= 70
+PinkChocolateBoxDropZenRate		= 9800
+PinkChocolateBoxDropZen			= 100000
+RedChocolateBoxDropLv_Min		= 50
+RedChocolateBoxDropLv_Max		= 69
+RedChocolateBoxDropRate			= 50
+RedChocolateBoxDropZenRate		= 9850
+RedChocolateBoxDropZen			= 500000
+BlueChocolateBoxDropLv_Min		= 70
+BlueChocolateBoxDropLv_Max		= 97
+BlueChocolateBoxDropRate		= 30
+BlueChocolateBoxDropZenRate		= 9930
+BlueChocolateBoxDropZen			= 1000000
+
+
+//------------------------------------------------------//
+//	            Candy Box Options		        //
+//------------------------------------------------------//
+CandyBoxEvent				= 1
+LightPurpleCandyBoxDropLv_Min		= 12
+LightPurpleCandyBoxDropLv_Max		= 49
+LightPurpleCandyBoxDropRate		= 30
+LightPurpleCandyBoxDropZenRate		= 9800
+LightPurpleCandyBoxDropZen		= 100000
+VermilionCandyBoxDropLv_Min		= 50
+VermilionCandyBoxDropLv_Max		= 69
+VermilionCandyBoxDropRate		= 30
+VermilionCandyBoxDropZenRate		= 9850
+VermilionCandyBoxDropZen		= 400000
+DeepBlueCandyBoxDropLv_Min		= 70
+DeepBlueCandyBoxDropLv_Max		= 97
+DeepBlueCandyBoxDropRate		= 10
+DeepBlueCandyBoxDropZenRate		= 9930
+DeepBlueCandyBoxDropZen			= 800000
+
+
+//------------------------------------------------------//
+//	           Box Of Heaven Options	        //
+//------------------------------------------------------//
+BoxOfGoldDropRate			= 200
+ItemDropRateForBoxOfGold		= 20
+EventChipDropRateForBoxOfGold		= 50
+EventChipEvent				= 1
+EventChipServerConnect			= 1
+EventChipServerIP			= 127.0.0.1
+
+
+//------------------------------------------------------//
+//	           FireCracker Options		        //
+//------------------------------------------------------//
+FireCrackerEvent 			= 1
+FireCrackerDropRate  			= 50
+ItemDropRateForFireCracker 		= 10
+OnlyFireCrackerEffect			= 0
+
+
+//------------------------------------------------------//
+//	              Medal Options		        //
+//------------------------------------------------------//
+MedalEvent				= 1
+GoldMedalDropRate 			= 5
+SilverMedalDropRate 			= 3
+ItemDropRateForGoldMedal 		= 20
+ItemDropRateForSilverMedal 		= 20
+
+
+//------------------------------------------------------//
+//	          Heart Of Love Options		        //
+//------------------------------------------------------//
+HeartOfLoveEvent 			= 1
+HeartOfLoveDropRate  			= 90
+ItemDropRateForHeartOfLove 		= 20
+
+
+//------------------------------------------------------//
+//	       Star Of Sacred Birth Options	        //
+//------------------------------------------------------//
+XMasEvent				= 0
+XMasEvent_StarOfXMasDropRate		= 50
+XMasEvent_ItemDropRateForStarOfXMas	= 10000
+
+
+//------------------------------------------------------//
+//	       Heart Of Dark Lord Options	        //
+//------------------------------------------------------//
+DarkLordHeartDropRate			= 0
+DarkLordHeartOffEventRate		= 0
+
+
+//------------------------------------------------------//
+//	          White Wizard Options	                //
+//------------------------------------------------------//
+RingAttackEvent		                = 1
+RingOrcKillGiftRate		        = 10000
+RingDropGiftRate			= 10000
+
+
+//------------------------------------------------------//
+//	          Gem Of Secret Options	                //
+//------------------------------------------------------//
+MysteriouseBeadDropRate1		= 60
+MysteriouseBeadDropRate2		= 120
+HiddenTreasureBoxOfflineRate		= 10
+
+
+//------------------------------------------------------//
+//		     Lucky Coin Options		        //
+//------------------------------------------------------//
+LuckyCoinEventOn			= 0
+LuckyCoinDropRate			= 1000
+
+
+//------------------------------------------------------//
+//	            Red Dragon Options	                //
+//------------------------------------------------------//
+EVENT1                     = 1     
+Event1ItemDropTodayMax     = 6    
+Event1ItemDropTodayPercent = 10000
+
+
+//------------------------------------------------------//
+//	       Golden Invasion Options	                //
+//------------------------------------------------------//
+IsEledoradoEvent			= 1
+AttackEventRegenTime			= 10
+EledoradoGoldGoblenRegenTime           	= 120	; Gold Goblin
+EledoradoTitanRegenTime                 = 120	; Gold Titan
+EledoradoGoldDerconRegenTime          	= 120	; Gold Dragon
+EledoradoDevilLizardKingRegenTime       = 120 	; Gold Lizard King
+EledoradoDevilTantarosRegenTime      	= 120	; Gold Tantalos
+EledoradoGoldGoblenItemDropRate      	= 50	; Regular Item Drop Rate  ( N /10000 )
+EledoradoGoldGoblenExItemDropRate  	= 50	; Excellent Item Drop Rate  ( N /10000 )
+EledoradoTitanItemDropRate 		= 50	; Regular Item Drop Rate  
+EledoradoTitanExItemDropRate 		= 50	; Excellent Item Drop Rate
+EledoradoGoldDerconItemDropRate 	= 50	; Regular Item Drop Rate  
+EledoradoGoldDerconExItemDropRate 	= 50	; Excellent Item Drop Rate
+EledoradoDevilLizardKingItemDropRate 	= 50	; Regular Item Drop Rate  
+EledoradoDevilLizardKingExItemDropRate 	= 50	; Excellent Item Drop Rate
+EledoradoDevilTantarosItemDropRate 	= 50	; Regular Item Drop Rate 
+EledoradoDevilTantarosExItemDropRate 	= 50	; Excellent Item Drop Rate
+// New Invasion Mobs
+EledoradoGoldenRabbitRegenTime  	= 120   
+EledoradoGoldenDarkKnightRegenTime  	= 120
+EledoradoGoldenDevilRegenTime  	 	= 120
+EledoradoGoldenMonsterRegenTime  	= 120
+EledoradoGoldenCrustRegenTime  	 	= 120
+EledoradoGoldenSatirosRegenTime  	= 120
+EledoradoGoldenTwintailRegenTime  	= 120
+EledoradoGoldenIronKnightRegenTime  	= 120
+EledoradoGoldenNeipinRegenTime  	= 120
+EledoradoGoldenGreatDragonRegenTime  	= 120
+
+
+//------------------------------------------------------//
+//	         Devil Square Options	                //
+//------------------------------------------------------//
+DevilSquareEvent			= 1
+DevilSquareEventConnect			= 0
+DevilSquareEventServer		        = 127.0.0.1
+EyesOfDevilSquareDropRate		= 30
+KeyOfDevilSquareDropRate		= 30
+DQChaosSuccessRateLevel1		= 75
+DQChaosSuccessRateLevel2		= 70
+DQChaosSuccessRateLevel3		= 65
+DQChaosSuccessRateLevel4		= 60
+DQChaosSuccessRateLevel5		= 55
+DQChaosSuccessRateLevel6		= 50
+DQChaosSuccessRateLevel7		= 45
+
+
+//------------------------------------------------------//
+//	          Chaos Castle Options	                //
+//------------------------------------------------------//
+ChaosCastleEvent			= 1
+
+
+//------------------------------------------------------//
+//	          Blood Castle Options	                //
+//------------------------------------------------------//
+BloodCastleEvent 			= 1
+BloodCastleStartHour 			= 1
+BloodCastleOddEvenHour			= 0
+AngelKingsPaperDropRate			= 10
+BloodBoneDropRate			= 10
+StoneDropRate				= 10
+
+
+//------------------------------------------------------//
+//	    Ring Of Transformation Options	        //
+//------------------------------------------------------//
+IsItemDropRingOfTransform		= 1
+ItemDropRingOfTransform			= 30
+
+
+//------------------------------------------------------//
+//	             Kundun Options	                //
+//------------------------------------------------------//
+KundunMarkDropRate			= 50
+KundunRefillHPSec 			= 400
+KundunRefillHP 				= 15000
+KundunRefillHPTime 			= 600
+KundunHPLogSaveTime			= 120
+
+
+//------------------------------------------------------//
+//	              Other Options	                //
+//------------------------------------------------------//
+SantaPolymorphRingDropOn		= 1
+SantaPolymorphRingDropRate		= 10
+NewYearLuckyBagMonsterEventOn		= 0
+CondorFlameDropRate			= 10
+Japan1StAnivItemDropRate		= 0
+
+
+//------------------------------------------------------//
+//		       Socket Options		        //
+//------------------------------------------------------//
+SocketSlotCountRate1			= 9000
+SocketSlotCountRate2			= 995
+SocketSlotCountRate3			= 5
+SocketSlotCountRate4			= 0
+SocketSlotCountRate5			= 0
+TwoHandWeaponSocketSlotCountRate1	= 6000
+TwoHandWeaponSocketSlotCountRate2	= 2000
+TwoHandWeaponSocketSlotCountRate3	= 1500
+TwoHandWeaponSocketSlotCountRate4	= 495
+TwoHandWeaponSocketSlotCountRate5	= 5
+
+
+//------------------------------------------------------//
+//		        Seed Options		        //
+//------------------------------------------------------//
+ShopBuySocketItemSlotCount		= 0
+SeedExtractMoney			= 1000000
+SeedSphereCompositeMoney		= 1000000
+SeedSphereSetMoney			= 1000000
+SeedSphereRemoveMoney			= 1000000
+SphereDropOn				= 1
+SphereDropRate_Lv1			= 10
+SphereDropRate_Lv2			= 0
+SphereDropRate_Lv3			= 0
+SphereDropRate_Lv4			= 0
+SphereDropRate_Lv5			= 0
+SphereDropLevel_Lv1			= 102
+SphereDropLevel_Lv2			= 0
+SphereDropLevel_Lv3			= 0
+SphereDropLevel_Lv4			= 0
+SphereDropLevel_Lv5			= 0
+
+
+//------------------------------------------------------//
+//	            Purity Options		        //
+//------------------------------------------------------//
+PurityHarmonyJewel		 	= 1
+MixSmeltingStoneItem		 	= 1
+RestoreStrengthenItem		 	= 1
+StrengthenItem           	 	= 1
+SmeltItemBySmeltingStone	 	= 1
+PuritySuccessRate 		 	= 100
+PurityNeedZen			 	= 0
+SmeltingStoneSuccesRateNormal	 	= 20
+SmeltingStoneSuccesRateExcellent 	= 50
+SmeltingNeedZen			 	= 0
+StrengthenSuccessRate		 	= 80
+SmeltingItemSuccessRateNor	 	= 20
+SmeltingItemSuccessRateExt	 	= 100
+
+
+//------------------------------------------------------//
+//	       380 Level System Options		        //
+//------------------------------------------------------//
+System380ItemSystem		 	= 1
+CountOfJewelOfHarmonyForMix      	= 1
+CountOfSuhoOfHarmonyForMix	 	= 1
+NeedZenForMix			 	= 10000000
+MixRateForGrade1		 	= 50
+MixRateForGrade2		 	= 60
+MixRateForGrade3		 	= 70
+
+
+//------------------------------------------------------//
+//		  Halloween Options		        //
+//------------------------------------------------------//
+HallowinEventOn				= 1
+HallowinEventPumpkinOfLuckDropRate	= 100
+HallowinEventJOLBlessDropRate		= 10
+HallowinEventJOLAngerDropRate		= 15
+HallowinEventJOLScreamDropRate		= 15
+HallowinEventJOLFoodDropRate		= 30
+HallowinEventJOLDrinkDropRate		= 25
+HallowinEventJOLPolymorphRingDropRate	= 5
+
+
+//------------------------------------------------------//
+//		     TamaJJang Options		        //
+//------------------------------------------------------//
+TamaJJangEvent				= 0
+TamaJJangKeepTime			= 180
+TamaJJangDisappearTime			= 1800
+TamaJJangDisappearTimeRandomRange	= 1000
+
+
+//------------------------------------------------------//
+//		      Raklion Options		        //
+//------------------------------------------------------//
+RaklionEvent				= 1
+BlockRaklionMapEnter			= 0
+RaklionSelupanItemDrop			= 1
+RaklionSelupanItemDropRate		= 10000
+RaklionSelupanDropZenRate		= 6800
+RaklionSelupanDropZen			= 100000
+
+
+//------------------------------------------------------//
+//		        XMas Options		        //
+//------------------------------------------------------//
+XMasAttackEvent				= 0
+XMasAttackEvent_DropRate		= 5000
+XMasAttackEvent_DropZen			= 10000
+XMasEvent_LuckNumber1st			= 100
+XMasEvent_LuckNumber2nd			= 200
+
+
+//------------------------------------------------------//
+//		 Cherry Blossom Options		        //
+//------------------------------------------------------//
+CherryBlossomEventOn			= 1
+CherryBlossomEventItemDropRate		= 100
+
+
+//------------------------------------------------------//
+//		   Crywolf Options		        //
+//------------------------------------------------------//
+CrywolfMonsterDarkElfItemDrop		= 1
+CrywolfMonsterDarkElfItemDropRate	= 10000
+CrywolfMonsterDarkElfDropZenRate	= 4000
+CrywolfMonsterDarkElfDropZen		= 10000
+CrywolfBossMonsterItemDrop		= 1
+CrywolfBossMonsterItemDropRate		= 10000
+CrywolfBossMonsterDropZenRate		= 4000
+CrywolfBossMonsterDropZen		= 30000
+CrywolfApplyMvpBenefit			= 1
+CrywolfPlusChaosRateBenefit		= 10
+CrywolfMonHPRateBenefit			= 70
+CrywolfKundunHPRefillBenefit 		= 1
+CrywolfApplyMvpPenalty			= 1
+CrywolfGemDropPenaltyRate		= 70
+CrywolfGettingExpPenaltyRate		= 90
+
+
+//------------------------------------------------------//
+//		   Kanturu Options		        //
+//------------------------------------------------------//
+KanturuEvent				= 1
+BlockKanturuMapEnter			= 0
+KanturuMayaHandItemDrop			= 1
+KanturuMayaHandItemDropRate		= 10000
+KanturuMayaHandDropZenRate		= 6800
+KanturuMayaHandDropZen			= 0
+KanturuNightmareItemDrop		= 1
+KanturuNightmareItemDropRate		= 10000
+KanturuNightmareDropZenRate		= 2500
+KanturuNightmareDropZen			= 0
+KanturuSpecialItemDropOn		= 1
+KanturuMoonStoneDropRate		= 20
+KanturuJewelOfHarmonyDropRate		= 50
+
+
+//------------------------------------------------------//
+//		 Illusion Temple Options	        //
+//------------------------------------------------------//
+IllusionTempleEvent			= 1
+OldScrollDropRate			= 30
+CovenantOfIllusionDropRate		= 30
+UseMaxLevelIllusionTemple		= 1
+SaveIllusionTempleRankingPoint		= 1
+IllusionTempleRewardPercent		= 30
+IllusionTempleMinUseSkillCnt		= 3
+IllusionTempleRewardPercentMaster	= 50
+
+
+//------------------------------------------------------//
+//		 Castle Siege Options		        //
+//------------------------------------------------------//
+CastleSiegeRun				= 0
+CastleDeepEvent                         = 0
+BlockCastleSiegeMapEnter		= 0
+IsDropGemOfDefend			= 1
+GemOfDefendDropRate			= 5
+GemOfDefendDropLevel			= 75
+IsDropSetItemInCastleHuntZone		= 1
+SetItemInCastleHuntZoneDropRate		= 5
+SetItemInCastleHuntZoneDropLevel	= 75
+MarkOfTheLord				= 20
+
+//------------------------------------------------------//
+// 1 - Registration Of Castle Siege		        //
+// 2 - Idle State				        //
+// 3 - Registration Of The Status Of Mark Lord	        //
+// 4 - Idle State				        //
+// 5 - Notification Of The Attack Castle to Guilds      //
+// 6 - Reading The State Of Castle Siege	        //
+// 7 - Top Of Castle Siege			        //
+// 8 - End Of Castle Siege			        //
+// 9 - End Of The Cycle (Automatically Back to 1)       //
+//------------------------------------------------------//
+
+CastleCycleStartYear			=0
+CastleCycleStartMonth			=0
+CastleCycleStartDay			=0
+CastleSpecificState			=0
+CastleStateStartYear			=0
+CastleStateStartMonth			=0
+CastleStateStartDay			=0
+CastleStateStartHour			=0
+CastleStateStartMinute			=0
+
+
+//------------------------------------------------------//
+//		 PC Point System Options		//
+//------------------------------------------------------//
+PCBangPointSystemOn		        = 0	
+PCBangPointSystemLevel		        = 1	
+PCBangPointRankingEvent		        = 1	
+PCBangPointFirstRuleTime		= 600				
+PCBangPointFirstRuleTimePoint		= 1		
+PCBangPointCommonRuleTime		= 600		
+PCBangPointCommonRuleTimePoint		= 1		
+PCBangMaxPoint				= 1008		
+PCBangPointFeverStartHour		= 20			
+PCBangPointFeverEndHour			= 24
+PCBangPointFeverMultipleValue		= 1
+PCBangResetDayOfWeek			= 2		
+PCBangResetHour				= 9		
+PCBangAddExperience			= 1.0

@@ -1,0 +1,2 @@
+USE MuOnline
+ALTER TABLE OptionData ALTER COLUMN SkillKey BINARY(20)

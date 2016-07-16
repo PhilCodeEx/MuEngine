@@ -1,0 +1,76 @@
+; Type		= Item type
+; Index		= Item Index
+; Map		= -1 (Drop in all map) / specific map number
+; MobID		= -1 Disregard monster ID / specific monster ID
+; MobMin	= -1 Disregard monster level / specific monster minimum level
+; MobMax	= if Mobin is greater than 0 value then MobMax value should be more than or equal MobMin value
+; IMinLvl	= Item minimum level
+; IMaxLvl	= Item max level (max value in this version is 13)
+; ISkill	= 0 / 1 - Item can have skill or no (random)
+; ILuck		= 0 / 1 - Item can have luck or no (random)
+; IOpt		= 0 - 7 (Item option: 1 = +4, 7 = +28) Max option item can have
+; IDur		= Item durability
+; IExc		= 0 - 6 Maximum excellent options an item can have
+; IAnc		= 0 / 1 - Item can be ancient, make sure item is really a valid ancient item
+; Rate		= 1 to CustomDropRateDiv (value you set in item.ini under CUSTOMDROP section) Item drop rate
+; NOTE: Drop rule is from left to right (Type -> DropRate), let say you set an item to drop in Yeti monster and map devias and when 
+;	you added Yeti in other map then MobID option will be disregarded.
+/---------------------------------------------------------------------------------------------------------------------------------------/
+| 	Type	Index	Map	MobID	MobMin	MobMax	IMinLvl	IMaxLvl	ISkill	ILuck	IOpt	IDur	IExc	IAnc	Rate		|
+/---------------------------------------------------------------------------------------------------------------------------------------/
+// jewels
+	12	15	-1	-1	12	200	0	0	0	0	0	0	0	0	10						
+	14	13	-1	-1	22	200	0	0	0	0	0	0	0	0	5				
+	14	14	-1	-1	30	200	0	0	0	0	0	0	0	0	5				
+	14	16	-1	-1	69	200	0	0	0	0	0	0	0	0	10	
+	14	22	-1	-1	75	200	0	0	0	0	0	0	0	0	10	
+// gemstone
+	14	41	-1	-1	75	200	0	0	0	0	0	0	0	0	10	
+// pets			
+	13	64	-1	-1	75	200	0	0	0	0	0	255	0	0	1				
+	13	65	-1	-1	75	200	0	0	0	0	0	255	0	0	1	
+	13	80	-1	-1	95	200	0	0	0	0	0	255	0	0	1	
+// PANDA RING
+	13	76	-1	-1	90	200	0	0	0	0	0	255	0	0	1	
+// crystal		
+	13	52	-1	-1	100	200	0	0	0	0	0	0	0	0	1	
+// crystal vip		
+	13	52	56	-1	75	200	0	0	0	0	0	0	0	0	3	
+// seeds
+	12	60	-1	-1	95	200	0	0	0	0	0	0	0	0	8	
+	12	61	-1	-1	95	200	0	0	0	0	0	0	0	0	8	
+	12	62	-1	-1	95	200	0	0	0	0	0	0	0	0	8	
+	12	63	-1	-1	95	200	0	0	0	0	0	0	0	0	8	
+	12	64	-1	-1	95	200	0	0	0	0	0	0	0	0	8	
+	12	65	-1	-1	95	200	0	0	0	0	0	0	0	0	8	
+	12	70	-1	-1	95	200	0	0	0	0	0	0	0	0	8	
+// rena			
+	14	21	-1	-1	1	200	0	0	0	0	0	0	0	0	10	
+// moonstone ring
+	13	38	37	-1	95	200	0	0	0	0	0	0	0	0	7	
+// dungeon event
+	14	51	-1	-1	30	200	0	0	0	0	0	0	0	0	3	
+// free reset ticket
+	14	83	9	-1	-1	-1	0	0	0	0	0	0	0	0	1	
+	14	83	32	-1	-1	-1	0	0	0	0	0	0	0	0	1	
+	14	83	53	-1	-1	-1	0	0	0	0	0	0	0	0	1	
+	14	83	18	-1	-1	-1	0	0	0	0	0	0	0	0	1	
+	14	83	19	-1	-1	-1	0	0	0	0	0	0	0	0	1	
+	14	83	20	-1	-1	-1	0	0	0	0	0	0	0	0	1	
+	14	83	21	-1	-1	-1	0	0	0	0	0	0	0	0	1	
+	14	83	22	-1	-1	-1	0	0	0	0	0	0	0	0	1	
+	14	83	23	-1	-1	-1	0	0	0	0	0	0	0	0	1	
+	14	83	52	-1	-1	-1	0	0	0	0	0	0	0	0	1	
+	14	83	11	-1	-1	-1	0	0	0	0	0	0	0	0	1	
+	14	83	12	-1	-1	-1	0	0	0	0	0	0	0	0	1	
+	14	83	13	-1	-1	-1	0	0	0	0	0	0	0	0	1	
+	14	83	14	-1	-1	-1	0	0	0	0	0	0	0	0	1	
+	14	83	15	-1	-1	-1	0	0	0	0	0	0	0	0	1	
+	14	83	16	-1	-1	-1	0	0	0	0	0	0	0	0	1	
+	14	83	17	-1	-1	-1	0	0	0	0	0	0	0	0	1	
+// rare item drops (vulcanus)
+	14	121	63	-1	-1	-1	0	0	0	0	0	0	0	0	5	
+	14	122	63	-1	-1	-1	0	0	0	0	0	0	0	0	5	
+	14	112	63	-1	-1	-1	0	0	0	0	0	0	0	0	5	
+	14	113	63	-1	-1	-1	0	0	0	0	0	0	0	0	5	
+

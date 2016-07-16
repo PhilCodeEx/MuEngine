@@ -1,0 +1,37 @@
+//###########################################
+// Raklion Event
+//###########################################
+
+
+
+//	AppearanceTime	- time delay in seconds when selupan will appear after killing all the eggs
+//	BossZoneClose	- time delay in seconds when to close gate after selupan appeared
+//	Start		- time delay in seconds when to start the event after killing selupan/server start
+//
+//	AppearanceTime	BossZoneClose	Start
+//-------------------------------------------------------------------------------------------------------
+0
+	5		300		3600
+end
+
+
+//
+//	EggHalf		EggMax
+//-------------------------------------------------------------------------------------------------------
+1
+	5		15
+end
+
+//
+//	SkillDelay (Millisec)
+//-------------------------------------------------------------------------------------------------------
+2
+	1500
+end
+
+//
+//	Pattern1	Pattern2	Pattern3	Pattern4	Pattern5	Pattern6
+//-------------------------------------------------------------------------------------------------------
+3
+	80	60	50	40	20	10
+end

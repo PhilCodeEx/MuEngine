@@ -1,0 +1,104 @@
+//############################################
+// POWERED BY MU ENGINE                                    //
+//                    WWW.MUENGINE.ORG                      //
+//###########################################
+
+//旨收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收旬
+//早 Balgass Drop Settings                                                        早
+//曲收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收旭
+//---------------------------------------------------------------------------------
+// MapSettings
+//---------------------------------------------------------------------------------
+0
+//[MapIndex] [Drop Flag] [Min Monster Level] [Max MonsterLevel]
+	0	0	0	1000	//	Lorencia
+	1	0	0	1000	//	Dungeon
+	2	0	0	1000	//	Devias
+	3	0	0	1000	//	Noria
+	4	0	0	1000	//	Losttower
+	5	0	0	1000	//	Exile
+	6	0	0	1000	//	Stadium
+	7	0	0	1000	//	Atlans
+	8	0	0	1000	//	Tarkan
+	9	0	0	1000	//	Devil Square
+	10	0	0	1000	//	Icarus
+end
+//---------------------------------------------------------------------------------
+// Drop Settings
+//---------------------------------------------------------------------------------
+1
+//[EventName] [DropZen] [EventItemType] [EventItemIndex] [EventItemLevel] [EventItemDropRate] [ItemDropRate] [ExItemDropRate]
+	"Balgass"	1000000	0	0	0	0	100	1
+end
+//---------------------------------------------------------------------------------
+// Item Drop Settings
+//---------------------------------------------------------------------------------
+2
+//[Index] [Type] [MinLevel] [MaxLevel] [Skill] [Luck] [Option] [ExItemflag]
+
+
+7	52	0	0	0	1	3  	1	// Hades
+8	52	0	0	0	1	3  	1	// Hades
+9	52	0	0	0	1	3  	1	// Hades
+10	52	0	0	0	1	3  	1	// Hades
+11	52	0	0	0	1	3  	1	// Hades
+
+7	46	0	0	0	1	3  	1	// Brave 
+8	46	0	0	0	1	3  	1	// Brave 
+9	46	0	0	0	1	3  	1	// Brave 
+10	46	0	0	0	1	3  	1	// Brave 
+11	46	0	0	0	1	3  	1	// Brave 
+
+7	45	0	0	0	1	3  	1	// Titan 
+8	45	0	0	0	1	3  	1	// Titan 
+9	45	0	0	0	1	3  	1	// Titan 
+10	45	0	0	0	1	3  	1	// Titan 
+11	45	0	0	0	1	3  	1	// Titan 
+
+7	50	0	0	0	1	3  	1	// Faith 
+8	50	0	0	0	1	3  	1	// Faith 
+9	50	0	0	0	1	3  	1	// Faith 
+10	50	0	0	0	1	3  	1	// Faith 
+11	50	0	0	0	1	3  	1	// Faith 
+
+7	49	0	0	0	1	3  	1	// Seraphim 
+8	49	0	0	0	1	3  	1	// Seraphim 
+9	49	0	0	0	1	3  	1	// Seraphim 
+10	49	0	0	0	1	3  	1	// Seraphim 
+11	49	0	0	0	1	3  	1	// Seraphim 
+
+
+8	47	0	0	0	1	3  	1	// Phantom 
+9	47	0	0	0	1	3  	1	// Phantom 
+10	47	0	0	0	1	3  	1	// Phantom 
+11	47	0	0	0	1	3  	1	// Phantom 
+
+
+8	48	0	0	0	1	3  	1	// Destroyer 
+9	48	0	0	0	1	3  	1	// Destroyer 
+10	48	0	0	0	1	3  	1	// Destroyer 
+11	48	0	0	0	1	3  	1	// Destroyer 
+
+7	51	0	0	0	1	3  	1	// King 
+8	51	0	0	0	1	3  	1	// King 
+9	51	0	0	0	1	3  	1	// King 
+10	51	0	0	0	1	3  	1	// King 
+11	51	0	0	0	1	3  	1	// King 
+
+6	17	0	0	1	1	3  	1	// Crimson
+6	18	0	0	1	1	3  	1	// Salamnder 
+6	19	0	0	1	1	3  	1	// Frost
+6	20	0	0	1	1	3  	1	// Guardian
+
+5	30	0	0	1	1	3  	1	// Deadly Staff
+5	31	0	0	1	1	3  	1	// Imperial Staff
+4	23	0	0	1	1	3  	1	// Emerald Bow
+2	17	0	0	1	1	3  	1	// Absalute Scepter
+
+0	28	0	0	1	1	3  	1	// Rune Bastard
+0	26	0	0	1	1	3  	1	// Flamberge
+0	27	0	0	1	1	3  	1	// Sword Brecer
+
+2	16	0	0	1	1	3  	1	// Frost Mace
+
+end

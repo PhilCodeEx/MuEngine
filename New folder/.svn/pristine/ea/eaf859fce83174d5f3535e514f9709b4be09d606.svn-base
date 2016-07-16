@@ -1,0 +1,11 @@
+//############################################
+// POWERED BY MU ENGINE                                    //
+//                    WWW.MUENGINE.ORG                      //
+//###########################################
+
+[GameServerInfo]
+ServerName       	= GS1
+ServerCode       	= 11
+NonPk 		 	= 0
+PkLimitFree	 	= 1
+ConnectMemberLoad	= 0

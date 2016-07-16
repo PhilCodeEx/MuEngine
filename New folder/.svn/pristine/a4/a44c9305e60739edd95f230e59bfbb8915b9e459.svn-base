@@ -1,0 +1,127 @@
+[GENERAL]
+AllowMaxOption_28		= 1         ; Enable Max Additional Option +28 (0 = Disabled / 1 = Enabled)
+AllowJohInAncient		= 0         ; Enable Jewel Of Harmony in Ancient Items (0 = Disabled / 1 = Enabled)
+AllowSocketToBeExe		= 0         ; Enable Excellent Options in Socket Items (0 = Disabled / 1 = Enabled)
+AllowJohInSocket		= 0         ; Enable Jewel Of Harmony in Socket Items (0 = Disabled / 1 = Enabled)
+AllowAncientToBeExe		= 0         ; Enable Excellent Options in Ancient Items (0 = Disabled / 1 = Enabled)
+AllowAncientToBeSocketed	= 0	    ; Enable Socket Options in Ancient Items (0 = Disabled / 1 = Enabled)
+AllowSocketToBe380Opt		= 0	    ; Enable 380 Options in Socket Items (0 = Disabled / 1 = Enabled)
+
+ItemDropDisappearTime		= 120	    ; Dropped Items Will Dissapear After This Time (Seconds) [Max Value: 255]
+ZenDropDisappearTime		= 30	    ; Dropped Zen Will Dissapear After This Time (Seconds) [Max Value: 255]
+MaxSocketSlot			= 5	    ; Maximum Allowed Sockets Per Item (Range: 1-5)
+Item380DropRate			= 80
+
+BlockSpecialItemSerial		= 0	    ; set to 1 to block items with serial FFFFFFFF in trade/personal store
+
+
+
+
+[CUSTOMDROP]
+EnableCustomDrop	= 1	    ; Custom Item Drop System [Data\CustomItemDrop.txt] (0 = Disabled / 1 = Enabled)
+CustomDropRateDiv	= 100	    ; The Drop Rate Divisor For Your CustomItemDrop.txt File (Default: 100)
+
+
+[JEWELPRICE]
+Bless			= 9000000   ; Jewel Of Bless Price
+Soul			= 6000000   ; Jewel Of Soul Price
+Chaos			= 810000    ; Jewel Of Chaos Price
+Life			= 45000000  ; Jewel Of Life Price
+Creation		= 36000000  ; Jewel Of Creation Price
+Guardian		= 60000000  ; Jewel Of Guardian Price
+
+[JEWELSUCCESSRATE]
+SoulNoLuck		= 50        ; Jewel Of Soul Success Rate (For Items Without Luck)
+SoulWithLuck		= 75        ; Jewel Of Soul Success Rate (For Items With Luck)
+Life			= 90        ; Jewel Of Life Success Rate
+
+
+[ITEMDROP]
+ExcRate			= 1	    ; 1-100, Excellent Item Drop Rate
+ExcMaxOpt		= 2	    ; 1-6, Maximum Excellent Options Per Item
+ExcSkillRate		= 50	    ; 1-100, Rate an Exc Item to Have Skill
+ExcLuckRate		= 50	    ; 1-100, Rate an Exc Item to Have Luck
+ExcMaxOptByResets	= 1	    ; Increase Excellent Options Drop By Resets (0 = Disabled / 1 = Enabled)
+ExcIncOptEveryReset	= 30	    ; Increase Excellent Options Drop By 1 Every X Resets (Example: If Set 10 Then For Resets 0-9 Max Exc Options Will Be 1, Resets 10-19 MaxExcOpt 2 Etc..) [NOTE: ExcMaxOpt Will ALWAYS Be The Max Value]
+ExcRateDiv		= 1000	    ; 1-10000, Excellent Drop Rate is ExcRate / ExcRateDiv (Increase ExcRateDiv to Make Exc Drop Harder)
+ExcMaxLevel		= 9	    ; 0-15, Maximum Level Of Excellent Item
+
+
+[CHAOSMACHINE]
+DarkHorseMixRate	= 60	    ; Dark Horse Mix Success Rate (0 = Use Default Rate)
+DarkHorseMixPrice	= 5000000   ; Dark Horse Mix Cost 
+DarkSpiritMixRate	= 60	    ; Dark Spirit Mix Success Rate (0 = Use Default Rate)
+DarkSpiritMixPrice	= 1000000   ; Dark Spirit Mix Cost 
+
+WingMixLvl1Rate		= 0	    ; Wings Level 1 Mix Success Rate (0 = Use Default Rate)
+WingMixLvl2Rate		= 0	    ; Wings Level 2 Mix Success Rate (0 = Use Default Rate)
+WingMixLvl3Rate		= 0	    ; Wings Level 3 Mix Success Rate (0 = Use Default Rate)
+WingMixCondorRate	= 0	    ; Feather Of Condor Mix Success Rate (0 = Use Default Rate)
+
+MixAddLuckRate		= 25        ; Chaos Machine Additional Success Rate For Items + Luck
+MixDefaultRate		= 75        ; Chaos Machine Default Success Rate
+
+NormalMixRate_10	= 70        ; Normal Item +10 Upgrade Success Rate
+NormalMixRate_11to12	= 55        ; Normal Item +11 & +12 Upgrade Success Rate
+NormalMixRate_13	= 45        ; Normal Item +13 Upgrade Success Rate
+
+ExcMixRate_10		= 65        ; Excellent Item +10 Upgrade Success Rate
+ExcMixRate_11to12	= 50	    ; Excellent Item +11 & +12 Upgrade Success Rate
+ExcMixRate_13		= 40        ; Excellent Item +13 Upgrade Success Rate
+
+// SEASON 4 AND UP
+SocketMixRate_10	= 65        ; Socket Item +10 Upgrade Success Rate
+SocketMixRate_11to12	= 50        ; Socket Item +11 & +12 Upgrade Success Rate
+SocketMixRate_13	= 40        ; Socket Item +13 Upgrade Success Rate
+
+// SEASON 5 EP4 AND UP
+NormalMixRate_14	= 40        ; Normal Item +14 Upgrade Success Rate
+NormalMixRate_15	= 35        ; Normal Item +15 Upgrade Success Rate
+ExcMixRate_14		= 35        ; Excellent Item +14 Upgrade Success Rate
+ExcMixRate_15		= 30        ; Excellent Item +15 Upgrade Success Rate
+SocketMixRate_14	= 35        ; Socket Item +14 Upgrade Success Rate
+SocketMixRate_15	= 30        ; Socket Item +15 Upgrade Success Rate
+
+// SEASON 4 AND UP
+[SOCKETMIXRATE]
+SeedSphereExtract	= 0	    ; 1-100, Seed Sphere Extract Success Rate (0 = Use Default Rate)
+SeedSphereMount		= 0	    ; 1-100, Seed Sphere Mount Success Rate (0 = Use Default Rate)
+
+// SEASON 4 AND UP
+[SOCKETEXTRA]
+// List All Socketed Items: Config\Data\SocketItems.txt
+EnableSlotRecovery	= 0         ; Socket Slot Recovery (0 = Disabled / 1 = Enabled)
+NumSlotToRecover	= 2         ; Number Of Empty Slots to Add
+EnableAddSlot		= 0	    ; Enable Adding Of Empty Slot to Socket Items Using Item ID 14 146 (0 = Disabled / 1 = Enabled)
+SocketMaxSlotNoAdd	= 3	    ; Maximum Slots in Socket Items
+AddSlotSuccessRate	= 50	    ; 1-100, Success Rate For Adding Empty Slot (+25% For Items + Luck)
+
+// SEASON 5 AND UP
+[JOH]
+EnableMaxLvl15		= 0         ; Enable +15 Maximum Jewel Of Harmony Level (0 = Disabled / 1 = Enabled)
+// NOTE: You Must Replace JewelOfHarmonyOption.txt With JewelOfHarmonyOption_15.txt in Data/Item
+
+[DURABILITYFIX]
+// Durability Fix Through NPC
+AllowPetPandaFix	= 0         ; Allow Panda Pet Durability Fix (0 = Disabled / 1 = Enabled)
+AllowPetSkeletonFix	= 0         ; Allow Skeleton Pet Durability Fix (0 = Disabled / 1 = Enabled)
+AllowPetUnicornFix	= 0         ; Allow Unicorn Pet Durability Fix (0 = Disabled / 1 = Enabled)
+
+[LUCKYITEM]
+LuckyItemEnabled			= 0     ; Lucky Item System (0 = Disabled / 1 = Enabled)
+LuckyItemAddMaxExc			= 0	; 0 ~ 6, Max Excellent Option to Be Added (AllowAncientToBeExe Option Must Be 1)
+LuckyItemAddMaxExcIsFixed		= 0	; 0 = Random Excellent Option From 0 ~ LuckyItemAddMaxExc / 1 = Always Add LuckyItemAddMaxExc Exc Options
+LuckyItem2ndTicketReqLvl		= 150	; Min Level Required to Use 2nd Lucky Ticket (This is Ignored If Char Has Reset)
+LuckyItemReduceDurEveryMin		= 40	; After This Time (Minutes) 1 Durability Will Be Deducted From Lucky Item
+LuckyItemRefineDur255			= 60	; Success Rate to Create Jewel Of Extension When Durability is Max (255)
+LuckyItemRefineDurBelow255		= 10	; Success Rate to Create Jewel Of Extension When Durability is NOT Max (<255)
+LuckyItemReduceDurFromFenrirRate	= 50	; Durabilty Deduction Rate to Reduce in Fenrir's Attack	
+LuckyItemLuckRate			= 50	; Luck Rate For Lucky Item (0 to 100)
+LuckyItemMaxJolOpt			= 4	; Option Rate For Lucky Item (0 to 7)
+LuckyItemDelWhenZeroDurability		= 0	; 1 = Delete Lucky Item When Reach 0 Durability / 0 = Dont Delete Lucky Item
+
+[RAREITEMBOX]
+GoldenBoxRate	= 1	; x / 10000 drop success rate of rare item from golden box
+GoldenBoxZen	= 1000	; zeny to drop if golden box item drop failed
+SilverBoxRate	= 1	; x / 10000 drop success rate of rare item from silver box
+SilverBoxZen	= 1000	; zeny to drop if silver box item drop failed

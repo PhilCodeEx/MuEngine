@@ -1,0 +1,58 @@
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//	CashShop item list config for season 5.4 and above
+//	NOTES:
+//	1. CashoShopListEx.txt and CashShopPackages.txt are for server side inside the main data folder
+//	2. IBSProduct.txt,IBSPackages.txt and IBSCategory.txt are for client side, should be place inside "Data\InGameShopScript\512.2011.006" folder
+//	3. Season 5.4 is using @ symbol separator in all IBS text files while season 6 EP1 is using ^@ symbol 
+//	4. Values in this config file are mostly taken from IBS text files
+//
+//	#	- increment and should be unique
+//	Cat.	- 1st value IBSPackage.txt file, you can set your own category number as long as you update IBSCategory.txt also
+//	ID	- 3rd value in IBSPackage.txt, you can set you own value here but make sure its unique in each lines
+//	SubID	- 
+//	ItemOpt	- 
+//	PackId	- 0 if not package item otherwise put the PackId value from cashoppackage.txt (example is # 6)
+//	iType	- item type from item.txt
+//	iIndex	- item index from item.txt
+//	iLevel	- 0 to 15 item level
+//	iDur	- set to 0 for auto durability value 
+//	iSkill	- 0 or 1
+//	iLuck	- 0 or 1
+//	iOpt	- 0 to 7 (7 = 28)
+//	iExc	- sum from combinations of (1,2,4,8,16,32) - e.g 1+2+4 = 7 (3 exc options)
+//	iAnc	- 5 or 10 if ancient otherwise 0 for normal
+//	Type1	- 0 = regular item / 1 means the next column Time is minutes and 2 means Time is seconds
+//	Time	- use by items like seals for effect durations, 0 for regular or specific value (minutes when Type1 is 1 and seconds when Type1 is 2)
+//	Type2	- 0 = use CashPoints  /  1 = use PCPoints
+//	Price	- Item cost in Cash Points when Type2 is 0 or PC Points when Type2 is 1
+//	Key1	- 6th value starting from the end of the IBSProduct.txt, you can set your own value here
+//	Key2	- 1st value in IBSProduct.txt, you can set your own here and preferably unique
+//	Key3	- 7th value in IBSProduct.txt, you can set your own here and must be unique (Package item is always 0 here)
+//	Qty	- The quantity of item to insert (Default is 1), you can use this for promo like "Buy one take one"
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//	#	Cat.	ID	SubID	ItemOpt	PackId	iType	iIndex	iLevel	iDur	iSkill	iLuck	iOpt	iExc	iAnc	Type1	Time	Type2	Price	Key1	Key2	Key3	Qty	
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// Cash Points
+
+//Seal of Ascension (buff example - timed buff)														
+	1	22	100	0	0	0	13	43	0	0	0	0	0	0	0	1	1440	0	100	111	1	200	1
+//Master Seal of Ascension (buff example - timed buff)															
+	2	22	101	0	0	0	13	93	0	0	0	0	0	0	0	1	1440	0	100	111	2	201	1
+//Pet Panda														
+	3	23	102	0	0	0	13	80	0	0	0	0	0	0	0	0	0	0	150	111	3	202	1
+//dragon helm (excellent example)
+	4	24	103	0	0	0	7	1	9	0	0	1	4	7	0	0	0	0	500	111	4	203	1
+//brave helm (socket example)
+	5	24	104	0	0	0	7	46	9	0	0	1	4	7	0	0	0	0	500	111	5	204	1
+//package example (see CashShopPackage.txt)
+	6	13	105	0	0	4	14	134	0	0	0	0	0	0	0	0	0	0	500	111	6	0	1
+
+// PC Points
+//Seal of Ascension (buff example - timed buff)														
+	7	29	106	0	0	0	13	43	0	0	0	0	0	0	0	1	1440	1	100	111	8	205	1
+//Master Seal of Ascension (buff example - timed buff)															
+	8	29	107	0	0	0	13	93	0	0	0	0	0	0	0	1	1440	1	100	111	9	206	1
+end

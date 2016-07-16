@@ -1,0 +1,8 @@
+22@@100@Seal of Ascension@@100@*Increases experience gained from killing monters.#*Not applicable to Master Level Characters.#*You may use it with Seal of Healing or Seal of Divinity#*You cannot use Seal of Wealth at the same time.#@@@184@@@@@CashPoints@CashPoints@@@@1|@6699@2@4@200|@0@508@669
+22@@101@Master Seal of Ascension@@100@Increases experience gained from killing monsters.#Master Level only#*You cannot use Master Seal of Wealth at the same time.@@@184@@@@@CashPoints@CashPoints@@@@2|@6749@2@3@201|@0@508@669
+23@@102@[Pet Panda]@@50@EXP 50% increase#collects Zen around #Increase defensive skill + 50 #50 CashPoints@@@184@@@@@CashPoints@CashPoints@@@@3|@6736@3@2@202|@0@508@669
+24@@103@[Dragon Helm]@@500@+9 Excelent Dragon Helm #500 CashPoints@@@184@@@@@CashPoints@CashPoints@@@@4|@3585@3@2@203|@0@508@669
+24@@104@[Brave Helm]@@500@+9 Socketed Brave Helm #500 CashPoints@@@184@@@@@CashPoints@CashPoints@@@@5|@3630@3@2@204|@0@508@669
+13@@105@Gladiator Package @@500@Only for the real warriors of MU Continent!#Critical Ring of Wizard(1Day),Demon(1Day),Scroll of Quickness(1Day)@@@184@@@@@CashPoints@CashPoints@@@@6|7|@7302@2@1@@0@508@669
+29@@106@Seal of Ascension@@100@*Increases experience gained from killing monters.#*Not applicable to Master Level Characters.#*You may use it with Seal of Healing or Seal of Divinity#*You cannot use Seal of Wealth at the same time.#@@@184@@@@@PCPoints@PCPoints@@@@8|@6699@2@4@205|@0@508@669
+29@@107@Master Seal of Ascension@@100@Increases experience gained from killing monsters.#Master Level only#*You cannot use Master Seal of Wealth at the same time.@@@184@@@@@PCPoints@PCPoints@@@@9|@6749@2@3@206|@0@508@669

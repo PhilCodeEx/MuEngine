@@ -1,0 +1,70 @@
+//############################################
+// POWERED BY MU ENGINE                                    //
+//                    WWW.MUENGINE.ORG                      //
+//###########################################
+
+//旨收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收旬
+//早 Box Of Kundun +3 Drop Settings                                               早
+//曲收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收旭					
+1
+//	EventName	                  DropZen	EventItemType	EventItemIndex	EventItemLevel	EventItemDropRate	ItemDropRate	ExItemDropRate											
+	"Box Of Kundun +3"	0	0	                  0	0	0	                  100	                                                      500											
+end
+// | Type | Index | MinLevel | MaxLevel | Skill | Luck | Option | Excellent |	
+2
+10000	
+																		
+0	5	0	0	1	1	3	1	//"Blade"				
+0	10	0	0	1	1	3	1	//"Light Saber"			
+0	11	0	0	1	1	3	1	//"Legendary Sword"		
+0	13	0	0	1	1	3	1	//"Double Blade"		
+
+1	7	0	0	1	1	3	1	//"Larkan Axe"		
+
+2	3	0	0	1	1	3	1	//"Great Hammer"			
+
+3	7	0	0	1	1	3	1	//"Berdysh"			
+3	0	0	0	1	1	3	1	//"Light Spear"			
+3	4	0	0	1	1	3	1	//"Serpent Spear"		
+
+4	4	0	0	1	1	3	1	//"Tiger Bow"			
+4	12	0	0	1	1	3	1	//"Serpent Crossbow"		
+
+5	3	0	0	1	1	3	1	//"Thunder Staff"		
+5	15	0	0	1	1	3	1	//"Violent Wind Stick"	
+
+6	8	0	0	1	1	3	1	//"Tower Shield"			
+6	11	0	0	1	1	3	1	//"Serpent Shield"		
+6	14	0	0	1	1	3	1	//"Legendary Shield"	
+
+7	8	0	0	1	1	3	1	//"Brass Helm"		
+7	13	0	0	1	1	3	1	//"Spirit Helm"		
+7	9	0	0	1	1	3	1	//"Plate Helm"		
+7	25	0	0	1	1	3	1	//"Light Plate Mask"			
+7	3	0	0	1	1	3	1	//"Legendary Helm"	
+7	40	0	0	1	1	3	1	//"Red Wing Helm"		
+
+8	7	0	0	1	1	3	1	//"Sphinx Armor"			
+8	8	0	0	1	1	3	1	//"Brass Armor"		
+8	13	0	0	1	1	3	1	//"Spirit Armor"				
+8	9	0	0	1	1	3	1	//"Plate Armor"		
+
+9	13	0	0	1	1	3	1	//"Spirit Pants"			
+9	9	0	0	1	1	3	1	//"Plate Pants"		
+9	25	0	0	1	1	3	1	//"Light Plate Pants"	
+
+10	13	0	0	1	1	3	1	//"Spirit Gloves"		
+10	9	0	0	1	1	3	1	//"Plate Gloves"		
+10	25	0	0	1	1	3	1	//"Light Plate Gloves"	
+10	3	0	0	1	1	3	1	//"Legendary Gloves"	
+10	40	0	0	1	1	3	1	//"Red Wing Gloves"	
+10	14	0	0	1	1	3	1	//"Guardian Gloves"	
+
+11	13	0	0	1	1	3	1	//"Spirit Boots"			
+11	9	0	0	1	1	3	1	//"Plate Boots"		
+11	25	0	0	1	1	3	1	//"Light Plate Boots"		
+11	3	0	0	1	1	3	1	//"Legendary Boots"	
+11	40	0	0	1	1	3	1	//"Red Wing Boots"	
+
+end
+end

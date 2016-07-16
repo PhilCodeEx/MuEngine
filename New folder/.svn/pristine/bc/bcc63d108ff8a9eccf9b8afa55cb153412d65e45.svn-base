@@ -1,0 +1,121 @@
+[GREATERFORTITUDE]
+; DARK KNIGHT
+InnerVitDiv	= 700                  ; Increase Max Life % | Formula: Vitality/700
+InnerEneDiv 	= 140                  ; Increase Max Life % | Formula: Energy/140
+InnerDuration 	= 500                  ; Greater Fortitude Duration
+ML_InnerVitDiv 	= 600                  ; (Master Level) Increase Max Life % | Formula: Vitality/700
+ML_InnerEneDiv 	= 120                  ; (Master Level) Increase Max Life % | Formula: Energy/140
+ML_InnerDuration = 450                 ; (Master Level) Greater Fortitude Duration
+
+[MANASHIELD]
+; DARK WIZARD
+MSAgi		= 600                  ; Increase Mana Shield % | Formula: Agility/600
+MSEne		= 2500                 ; Increase Mana Shield % | Formula: Energy/2500
+MSTimeDiv	= 40	               ; Mana Shield Duration | Formula: 60 + Total Energy / 40 (Seconds)
+ML_MSAgi	= 600                  ; (Master Level) Increase Mana Shield % | Formula: Agility/600
+ML_MSEne	= 2500                 ; (Master Level) Increase Mana Shield % | Formula: Energy/2500
+ML_MSTimeDiv	= 40	               ; (Master Level) Mana Shield Duration | Formula: 60 + Total Energy / 40 (Seconds)
+
+[DECAY]
+ML_DecayEneDiv	= 20			; increase divisor to lower damage
+
+[BERSERKER]
+; SUMMONER
+BSDiv1		= 100	               ; Duration Divisor
+BSDiv2		= 150	               ; Increase Mana Divisor
+BSDiv3		= 300	               ; Decrease Life Divisor
+BSDuration	= 30	               ; Base Duration | Formula: Energy / BSDiv1 + BSDuration (Seconds)
+
+[DAMAGEREFLECT]
+; SUMMONER
+DRDiv1		= 42                   ; Increase Reflect DMG % | Formula: Energy/42
+DRDiv2		= 25                   ; Duration Divisor | Formula: Energy/25
+	
+[CRITICALDAMAGE]
+; DARK LORD
+CDLeaderShip	= 25                   ; Increase Critical DMG % | Formula: Command/25
+CDEnergy	= 30                   ; Increase Critical DMG % | Formula: Energy/30
+CDTime		= 10                   ; Base Duration | Formula: ((Energy+BonusEnergy) / CDTime + CDAddTime)
+CDAddTime	= 60	               ; Additional Duration Time (Seconds)
+
+
+// SEASON 4 AND UP
+
+[SLEEP]
+// Formula: ((Energy / Divisor) + 5 - MonsterLevel / 20)
+SleepNormalToMonster		= 100  ; Sleep Monster Duration Divisor (Normal Class)
+SleepMasterToMonsterLvl1	= 90   ; Sleep Monster Level 1 Duration Divisor (Skill Tree)
+SleepMasterToMonsterLvl2	= 80   ; Sleep Monster Level 2 Duration Divisor (Skill Tree)
+SleepMasterToMonsterLvl3	= 70   ; Sleep Monster Level 3 Duration Divisor (Skill Tree)
+SleepMasterToMonsterLvl4	= 60   ; Sleep Monster Level 4 Duration Divisor (Skill Tree)
+SleepMasterToMonsterLvl5	= 50   ; Sleep Monster Level 5 Duration Divisor (Skill Tree)
+// Formula: ((Energy / Divisor) + ((Level - TargetLevel) / 100) + 4))
+SleepNormalToPlayer		= 250  ; Sleep Player Duration Divisor (Normal Class)
+SleepMasterToPlayerLvl1		= 230  ; Sleep Player Level 1 Duration Divisor (Skill Tree)
+SleepMasterToPlayerLvl2		= 210  ; Sleep Player Level 2 Duration Divisor (Skill Tree)
+SleepMasterToPlayerLvl3		= 190  ; Sleep Player Level 3 Duration Divisor (Skill Tree)
+SleepMasterToPlayerLvl4		= 170  ; Sleep Player Level 4 Duration Divisor (Skill Tree)
+SleepMasterToPlayerLvl5		= 150  ; Sleep Player Level 5 Duration Divisor (Skill Tree)
+
+//
+[INNOVATION]
+EnergyPvMDiv	= 90 
+DurationPvMDiv	= 100
+EnergyPvPDiv	= 110
+DurationPvPDiv	= 300
+
+//
+[WEAKNESS]
+EnergyPvMDiv	= 58
+DurationPvMDiv	= 100
+EnergyPvPDiv	= 93
+DurationPvPDiv	= 300
+
+//
+[BLIND]
+EnergyPvMDiv	= 50 
+DurationPvMDiv	= 70
+EnergyPvPDiv	= 110
+DurationPvPDiv	= 210
+
+// SEASON 6 EP1
+
+[RFSKILLBUFS]
+; RAGE FIGHTER
+; Increase Block Success Rate Divisor | Formula: Energy/14.22
+IncreaseBlockEneDiv 	= 14.22
+; Increase Life Divisor | Formula: Energy/7.34        
+IncreaseLifeEneDiv 	= 7.34         
+IgnoreDefenceEneDiv 	= 150          ; Ignore Enemy Defense Divisor | Formula: Energy/150
+BaseDuration 		= 120	       ; Fixed Duration Time (Seconds)
+AddDurationEneDiv 	= 0	       ; Additional Duration Time Divisor | Formula: BaseDuration+Energy/Divisor (0 = Disabled)
+RegainBufsWhenDie	= 0	       ; Keep Buffs Active After Dying (0 = Disabled / 1 = Enabled)
+
+[DRAGONROAR]
+DRDiv1			= 10	       ; Energy divisor, increase value to decrease damage
+
+[DRAGONSLASHER]
+DSDiv1			= 10	       ; Energy divisor, increase value to decrease damage
+DSDiv2			= 10	       ; Vitality divisor, increase value to decrease damage
+DSIgnoreRate		= 80	       ; rate to hit ignore damage
+
+[CHAINDRIVE]
+CDDiv1			= 10	       ; Vitality divisor, increase value to decrease damage
+
+
+
+// ELF Buffs
+[ELFBUFFS]
+BufDefEneDiv		= 8	; 1 to 255
+BufDefDuration		= 60	; seconds
+BufAttackEneDiv		= 7	; 1 to 255
+BufAttackDuration	= 60	; seconds
+
+
+//
+[REFLECT]
+DamageDirectToHP = 0	; 1 - Reflect damage will bypass SD / 0 - Reflect damage will not bypass SD
+
+// You can put any active skill (including ML skill) number here (not passive) to lower or increase the damage of that SPECIFIC skill, any skill not included here will have normal damage (100%)
+[SKILLDIVISOR]
+262			= 80	; this mean chain drive will only have 80% of the actual damage, FORMULA: damage = damage * 80 / 100

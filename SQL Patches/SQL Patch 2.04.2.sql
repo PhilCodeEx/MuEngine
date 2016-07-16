@@ -1,0 +1,2 @@
+USE MuOnline
+ALTER TABLE [Character] ADD PvPLastStandWin INT NOT NULL DEFAULT 0

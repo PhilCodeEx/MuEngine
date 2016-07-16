@@ -1,0 +1,18 @@
+//############################################
+// POWERED BY MU ENGINE                                    //
+//                    WWW.MUENGINE.ORG                      //
+//###########################################
+
+//###########################################
+// Monster AI Rule Script
+//###########################################
+
+//Number	Class	Desc	AI Unit	Condition	WaitTime (Sec)	ContinuanceTime (Sec)	Month	Day	WeekDay	Hour	Min
+0
+
+//1	58	"Rule Mob"	2	1	10	10	9	-1	-1	-1	-1
+//2	58	"Rule Mob1"	3	1	25	10	9	-1	-1	-1	-1
+//3	58	"Rule Mob2"	4	1	40	10	9	-1	-1	-1	-1
+//4	58	"Rule Mob3"	5	1	55	10	9	-1	-1	-1	-1
+
+end

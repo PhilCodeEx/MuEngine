@@ -1,0 +1,38 @@
+//############################################
+// POWERED BY MU ENGINE                                    //
+//                    WWW.MUENGINE.ORG                      //
+//###########################################
+
+[SkillInfo]
+;/////////////////////////////////////////////////////////////////////////////////
+; Infinity Arrow Settings
+;////////////////////////////////////////////////////////////////////////////////
+InfinityArrowSkillTime 			= 600		; Skill Use Time (Seconds)
+InfinityArrowUseLevel			= 220		; Skill Min Level Use
+InfinityArraowMPConsumptionPlus0	= 10		; // +0 Mana Consumption Value
+InfinityArraowMPConsumptionPlus1	= 12		; // +1 Mana Consumption Value
+InfinityArraowMPConsumptionPlus2	= 14		; // +2 Mana Consumption Value
+
+;////////////////////////////////////////////////////////////////////////////////
+;// FireScream Settings
+;//
+;///////////////////////////////////////////////////////////////////////////////
+FireScreamSkill				= 1		; Activate Skill ( 1: On / 0: Off ) 
+FireScreamExplosionAttackDistance	= 1		; Skill Distance ( 0 - 10 ) 
+FireScreamExplosionRate			= 3000		; Skill Damage Success 1/10000
+FireScreamMaxAttackCountSameSerial	= 3		; Max Skill Attack Use By Serial
+FireScreamSerialInitCount		= 100		; Skill Count Serial
+
+CheckFireScreamSerial			= 1		; Activate Serial Check ( 1: On / 0: Off )
+
+
+;////////////////////////////////////////////////////////////////////////////////
+;// Mana Shield Settings
+;//
+;///////////////////////////////////////////////////////////////////////////////
+SoulBarrierManaRate_Level0		= 20		; Level0 Skill Mana Rate (1/1000)
+SoulBarrierManaRate_Level1		= 25		; Level1 Skill Mana Rate (1/1000)
+SoulBarrierManaRate_Level2		= 30		; Level2 Skill Mana Rate (1/1000)
+SoulBarrierManaRate_Level3		= 35		; Level3 Skill Mana Rate (1/1000)
+SoulBarrierManaRate_Level4		= 40		; Level4 Skill Mana Rate (1/1000)
+SoulBarrierManaRate_Level5		= 45		; Level5 Skill Mana Rate (1/1000)

@@ -1,0 +1,57 @@
+//############################################
+// POWERED BY MU ENGINE                                    //
+//                    WWW.MUENGINE.ORG                      //
+//###########################################
+
+//###########################################
+// Chaos Castle Event
+//###########################################
+
+// Event Open Settings
+// OpenTime, EventTime, CloseTime
+0
+5	10	1
+end
+
+// Event Drop Settings
+// Normal Item Drop, Excellent Item Drop(1/X), Monster Regen Time
+1
+100	1200	0
+end
+
+// Event Start Settings
+// Hour Minute
+2
+1	35
+2	35
+6	35
+8	35
+10	35
+12	35
+14	35
+16	35
+18	35
+20	35
+21	35
+22	35
+23	35
+0	35
+end
+
+
+// Offline Reward Rate
+3
+100		// 1/10000
+end
+
+
+// Reward Multiplier
+4
+0	1.0			// 1 ChaosCastle
+1	1.0			// 2 ChaosCastle
+2	1.0			// 3 ChaosCastle
+3	1.0			// 4 ChaosCastle
+4	1.0			// 5 ChaosCastle
+5	1.0			// 6 ChaosCastle
+6	1.0			// 7 ChaosCastle
+end

@@ -1,0 +1,19 @@
+[COMMON]
+TCP_Port		= 44405
+UDP_Port		= 55557
+AllowOnlyWhiteList 	= 0		; Can Be Used During Maintenance
+BlackListEnable		= 1
+Season6EP3ClientJapan	= 0		; Set to 1 If You're Using S6 EP3 Japan Client
+IdleCleanUp		= 120		; Time -Out in Seconds to Forcely Close Idled Connected Clients (Anti-Flooding)
+
+
+[DOS]
+Enable			= 1             ; Anti-DoS (0 = Disabled / 1 = Enabled)
+MaxPacketBlock		= 50
+BlockSeconds		= 500
+
+
+[MUGUARD]
+CSPluginEnable		= 0             ; CS Authentication Plugin (0 = Disabled / 1 = Enabled)
+CSPluginKey		= 11111111	; Should Be The Same Key in MuGuard Main.dat Config (Max 8 Numbers Only)
+

@@ -1,0 +1,16 @@
+//############################################
+// POWERED BY MU ENGINE                                    //
+//                    WWW.MUENGINE.ORG                      //
+//###########################################
+// ExcOptFixed :
+// 1 - Will Drop The Exact Number Of (Random) Exc Option You Set in MaxExc
+// 0 - Will Drop Random Number Of Exc Options Between 0 And Number You Set in MaxExc
+
+// Old Jewelry Case Item Bag - Max 100 Lines
+/----------------------------------------------------------------------------------------
+|	Type	Index	Level	Luck	Skill	Option	MaxExc	ExcOptFixed
+/----------------------------------------------------------------------------------------
+	14	14	0	0	0	0	0	0
+	14	13	0	0	0	0	0	0
+	12	15	0	0	0	0	0	0
+

@@ -1,0 +1,2 @@
+USE MuOnline
+ALTER TABLE RewardItem ADD iUntradeable TINYINT NOT NULL DEFAULT 0

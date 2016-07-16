@@ -1,0 +1,74 @@
+//############################################
+// POWERED BY MU ENGINE                                    //
+//                    WWW.MUENGINE.ORG                      //
+//###########################################
+
+//###########################################
+// Monster AI Unit Script
+//###########################################
+
+//ID	Name		Delay	Auto	Normal	Move	Attack	Heal	Avoid	Help	Special	Event
+0											
+1	"General"	1700	1	1	8	3	5	4	-1	-1	-1
+2	"Dark Elf"	1700	2	1	2	3	7	4	-1	6	-1
+3	"unknown"	2000	3	1	-1	9	-1	-1	-1	-1	-1
+4	"Balgass"	1000	1	1	2	3	5	4	-1	-1	-1
+10	"Dummy AI"	5000	10	1	-1	-1	-1	-1	-1	-1	-1
+// Dark Elf AI 1
+//ID	Name		Delay	Auto	Normal	Move	Attack	Heal	Avoid	Help	Special	Event											
+11	"1Dark Elf 1-1"	1700	2	1	11	3	7	4	-1	6	-1
+12	"1Dark Elf 1-2"	1700	2	1	12	3	7	4	-1	6	-1
+13	"1Dark Elf 1-3"	1700	2	1	13	3	7	4	-1	6	-1
+14	"1Dark Elf 1-4"	1700	2	1	14	3	7	4	-1	6	-1
+15	"1Dark Elf 2-1"	1700	2	1	15	3	7	4	-1	6	-1
+16	"1Dark Elf 2-2"	1700	2	1	16	3	7	4	-1	6	-1
+17	"1Dark Elf 2-3"	1700	2	1	17	3	7	4	-1	6	-1
+18	"1Dark Elf 2-4"	1700	2	1	18	3	7	4	-1	6	-1
+19	"1Dark Elf 3-1"	1700	2	1	19	3	7	4	-1	6	-1
+20	"1Dark Elf 3-2"	1700	2	1	20	3	7	4	-1	6	-1
+21	"1Dark Elf 3-3"	1700	2	1	21	3	7	4	-1	6	-1
+22	"1Dark Elf 3-4"	1700	2	1	22	3	7	4	-1	6	-1
+// Dark Elf AI 2
+31	"2Dark Elf 1-1"	1700	2	1	31	3	7	4	-1	6	-1
+32	"2Dark Elf 1-2"	1700	2	1	32	3	7	4	-1	6	-1
+33	"2Dark Elf 1-3"	1700	2	1	33	3	7	4	-1	6	-1
+34	"2Dark Elf 1-4"	1700	2	1	34	3	7	4	-1	6	-1
+35	"2Dark Elf 2-1"	1700	2	1	35	3	7	4	-1	6	-1
+36	"2Dark Elf 2-2"	1700	2	1	36	3	7	4	-1	6	-1
+37	"2Dark Elf 2-3"	1700	2	1	37	3	7	4	-1	6	-1
+38	"2Dark Elf 2-4"	1700	2	1	38	3	7	4	-1	6	-1
+39	"2Dark Elf 3-1"	1700	2	1	39	3	7	4	-1	6	-1
+40	"2Dark Elf 3-2"	1700	2	1	40	3	7	4	-1	6	-1
+41	"2Dark Elf 3-3"	1700	2	1	41	3	7	4	-1	6	-1
+42	"2Dark Elf 3-4"	1700	2	1	42	3	7	4	-1	6	-1
+// Crywolf Tanker AI
+51	"Balista 1-1"	2000	3	1	-1	51	-1	-1	-1	-1	-1
+52	"Balista 1-2"	2000	3	1	-1	52	-1	-1	-1	-1	-1
+53	"Balista 2-1"	2000	3	1	-1	53	-1	-1	-1	-1	-1
+54	"Balista 2-2"	2000	3	1	-1	54	-1	-1	-1	-1	-1
+55	"Balista 3-1"	2000	3	1	-1	55	-1	-1	-1	-1	-1
+56	"Balista 3-2"	2000	3	1	-1	56	-1	-1	-1	-1	-1
+// Maya Hands AI
+//Number	Name		Delay	Auto	Normal	Move	Attack	Heal	Avoid	Help	Special	Event
+// Single Hand AI
+60	"Maya Hands Start AI"	1000	7	1	-1	-1	-1	-1	-1	60	-1
+61	"Maya Hands ST1 AI1"	2000	4	1	65	61	-1	4	-1	-1	-1
+62	"Maya Hands ST1 AI2"	2000	6	1	65	64	-1	-1	-1	-1	-1
+63	"Maya Hands ST1 AI3"	800	5	1	65	62	-1	4	-1	-1	-1
+// Group Hands AI
+64	"Maya Hands ST2 AI1"	2000	4	1	65	61	-1	4	-1	-1	-1
+65	"Maya Hands ST2 AI2"	800	6	1	65	64	-1	-1	-1	-1	-1
+66	"Maya Hands ST2 AI3"	1000	5	1	65	62	-1	4	-1	-1	-1
+67	"Maya Hands ST2 AI4"	300	6	1	65	63	-1	4	-1	-1	-1
+// Nightmare AI
+//Number	Name		Delay	Auto	Normal	Move	Attack	Heal	Avoid	Help	Special	Event
+68	"Nightmare AI1"		300	8	67	 67	73	 -1	  70	    66		 69		77
+69	"Nightmare AI2"		300	9	67	 67	74	 -1	  71	    66		 69		78
+70	"Nightmare AI3"		300	12	67	 67	75	 -1	  72	    66		 69		79
+71	"Nightmare AI4"		300	11	67	 67	76	 -1	  -1	    -1		 -1		-1
+
+// 제국 수호군 몬스터 추가 2009-06-26												
+// 일반 몬스터												
+72	"일반몬스터-상태1"	300	13	80	81	82	-1	-1	-1	-1	-1	
+73	"치유병-상태1"	300	14	80	81	82	83	-1	84	-1	-1	
+end

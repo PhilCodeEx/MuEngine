@@ -1,0 +1,2 @@
+USE MuOnline
+ALTER TABLE [Character] ADD MasterResetCount SMALLINT NOT NULL DEFAULT 0

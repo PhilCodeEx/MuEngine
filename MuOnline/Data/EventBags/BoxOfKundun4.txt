@@ -1,0 +1,66 @@
+//############################################
+// POWERED BY MU ENGINE                                    //
+//                    WWW.MUENGINE.ORG                      //
+//###########################################
+
+//旨收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收旬
+//早 Box Of Kundun +4 Drop Settings                                               早
+//曲收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收旭					
+1
+//	EventName	                  DropZen	EventItemType	EventItemIndex	EventItemLevel	EventItemDropRate	ItemDropRate	ExItemDropRate											
+	"Box Of Kundun +4"	0	0	                  0	0	0	                  100	                                                      500											
+end
+// | Type | Index | MinLevel | MaxLevel | Skill | Luck | Option | Excellent |	
+2
+10000	
+																		
+0	15	0	0	1	1	3	1	//"Giant Sword"		
+0	12	0	0	1	1	3	1	//"Heliacal Sword"		
+0	14	0	0	1	1	3	1	//"Lighting Sword"	
+
+1	8	0	0	1	1	3	1	//"Crescent Axe"		
+
+2	8	0	0	1	1	3	1	//"Battle Scepter"		
+
+3	8	0	0	1	1	3	1	//"Great Scythe"			
+3	9	0	0	1	1	3	1	//"Bill of Balrog"		
+
+4	5	0	0	1	1	3	1	//"Silver Bow"		
+
+5	4	0	0	1	1	3	1	//"Gorgon Staff"			
+5	21	0	0	1	1	3	1	//"Book of Samut"		
+5	5	0	0	1	1	3	1	//"Legendary Staff"	
+5	22	0	0	1	1	3	1	//"Book of Neil"		
+5	16	0	0	1	1	3	1	//"Red Wing Stick"	
+5	23	0	0	1	1	3	1	//"Book of Lagle"		
+
+6	12	0	0	1	1	3	1	//"Bronze Shield"			
+6	13	0	0	1	1	3	1	//"Dragon Shield"		
+
+7	14	0	0	1	1	3	1	//"Guardian Helm"		
+7	1	0	0	1	1	3	1	//"Dragon Helm"		
+
+8	3	0	0	1	1	3	1	//"Legendary Armor"		
+8	40	0	0	1	1	3	1	//"Red Wing Armor"			
+8	14	0	0	1	1	3	1	//"Guardian Armor"		
+8	1	0	0	1	1	3	1	//"Dragon Armor"		
+8	25	0	0	1	1	3	1	//"Light Plate Armor"	
+
+9	3	0	0	1	1	3	1	//"Legendary Pants"		
+9	40	0	0	1	1	3	1	//"Red Wing Pants "		
+9	14	0	0	1	1	3	1	//"Guardian Pants"			
+9	1	0	0	1	1	3	1	//"Dragon Pants"		
+
+10	1	0	0	1	1	3	1	//"Dragon Gloves"			
+10	26	0	0	1	1	3	1	//"Adamantine Gloves"	
+10	34	0	0	1	1	3	1	//"Ashcrow Gloves"		
+10	35	0	0	1	1	3	1	//"Eclipse Gloves"		
+10	36	0	0	1	1	3	1	//"Iris Gloves"		
+10	41	0	0	1	1	3	1	//"Ancient Gloves"			
+
+11	14	0	0	1	1	3	1	//"Guardian Boots"			
+11	1	0	0	1	1	3	1	//"Dragon Boots"		
+11	26	0	0	1	1	3	1	//"Adamantine Boots"	
+11	41	0	0	1	1	3	1	//"Ancient Boots"
+end
+end

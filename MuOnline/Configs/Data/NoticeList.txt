@@ -1,0 +1,19 @@
+; SimpleLoop	= If value here is greater than 0 then it will disregard Day,Hour,Minute values
+;		other if you put value let say 30 then that specific notice message will be announced
+;		every 30 minutes. Put 0 to disable this option.
+; WDay		= -1 all days or specific day from 0 (Sunday) to 6 (Saturday)
+; Hour		= -1 all hours or specific from 0 - 23
+; Minute	= specific from 0 - 59
+; Message	= The message you want to display ingame, golden message. 
+/-----------------------------------------------------------------------------------------------------/
+|	SimpleLoop(Minute)	Day	Hour	Minute	Message					      |
+/-----------------------------------------------------------------------------------------------------/
+	31			-1	-1	0	"Please VOTE for Us every 12 hrs"
+	33			-1	-1	0	"Using non-english language in /post command will be penalized."
+	64			-1	-1	0	"Dungeon Race Random Prices: Bless/Soul Pack 30/20, Broken Horn and Feather of Condor."
+	0			6	1	1	"Castle Siege registration is open from Saturday to Sunday."
+	0			6	13	1	"Castle Siege registration is open from Saturday to Sunday."
+	0			0	1	1	"Castle Siege registration is open from Saturday to Sunday."
+	0			0	13	1	"Castle Siege registration is open from Saturday to Sunday."
+	0			5	16	0	"[Castle Siege] Siege Warfare commences..."
+	0			5	15	30	"[Castle Siege] All participants be ready in 30 minutes."

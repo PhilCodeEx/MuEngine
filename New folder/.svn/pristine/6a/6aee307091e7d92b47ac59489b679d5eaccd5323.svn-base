@@ -1,0 +1,21 @@
+[SQL]
+MuOnlineJoinDbDSN 	= MuOnlineJoinDB
+Host			= 127.0.0.1
+UseMd5			= 1             ; MD5 Encryption (0 = Disabled / 1 = Enabled)
+User	= sa
+Pass	=
+
+[MEJS]
+ListenPort		= 55970
+MaxConnection		= 10
+ConnectServerIP		= 127.0.0.1
+ConnectServerUdpPort	= 55557
+AutoDisconnectDelay	= 15		; Delay in Seconds to Auto Disconnect Locked Accounts
+RecordOnlineHistory	= 1		; Save Player's Time In/Out, IP Address, Online Duration(Seconds) to MuLogEx Table
+EnableVIPServer		= 0             ; Enable VIPSERVERS Feature (Below) (0 = Disabled / 1 = Enabled)
+MaxOnlineUsers		= 3000		; Maximum Online Accounts, Max Value is 45000
+
+[VIPSERVERS]
+ServerCounts		= 2
+0			= 11		; 1st VIP Server Code 
+1			= 12		; 2nd VIP Server Code

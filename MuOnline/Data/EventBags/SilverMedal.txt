@@ -1,0 +1,73 @@
+//############################################
+// POWERED BY MU ENGINE                                    //
+//                    WWW.MUENGINE.ORG                      //
+//###########################################
+
+//旨收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收旬
+//早 Silver Medal Drop Settings                                                   早
+//曲收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收收旭
+//[Type]   [Index]      [Level]      [Skill]         [Luck]      [Option]
+
+0	5	7	1	1	3	//"Blade"				
+0	10	7	1	1	3	//"Light Saber"			
+0	11	7	1	1	3	//"Legendary Sword"		
+0	13	7	1	1	3	//"Double Blade"		
+
+1	7	7	1	1	3	//"Larkan Axe"		
+
+2	3	7	1	1	3	//"Great Hammer"			
+
+3	7	7	1	1	3	//"Berdysh"			
+3	0	7	1	1	3	//"Light Spear"			
+3	4	7	1	1	3	//"Serpent Spear"		
+
+4	4	7	1	1	3	//"Tiger Bow"			
+4	12	7	1	1	3	//"Serpent Crossbow"		
+
+5	3	7	1	1	3	//"Thunder Staff"		
+5	15	7	1	1	3	//"Violent Wind Stick"	
+
+6	8	7	1	1	3	//"Tower Shield"			
+6	11	7	1	1	3	//"Serpent Shield"		
+6	14	7	1	1	3	//"Legendary Shield"	
+
+7	8	7	1	1	3	//"Brass Helm"		
+7	13	7	1	1	3	//"Spirit Helm"		
+7	9	7	1	1	3	//"Plate Helm"		
+7	25	7	1	1	3	//"Light Plate Mask"			
+7	3	7	1	1	3	//"Legendary Helm"	
+7	40	7	1	1	3	//"Red Wing Helm"		
+
+8	7	7	1	1	3	//"Sphinx Armor"			
+8	8	7	1	1	3	//"Brass Armor"		
+8	13	7	1	1	3	//"Spirit Armor"				
+8	9	7	1	1	3	//"Plate Armor"		
+
+9	13	7	1	1	3	//"Spirit Pants"			
+9	9	7	1	1	3	//"Plate Pants"		
+9	25	7	1	1	3	//"Light Plate Pants"	
+
+10	13	7	1	1	3	//"Spirit Gloves"		
+10	9	7	1	1	3	//"Plate Gloves"		
+10	25	7	1	1	3	//"Light Plate Gloves"	
+10	3	7	1	1	3	//"Legendary Gloves"	
+10	40	7	1	1	3	//"Red Wing Gloves"	
+10	14	7	1	1	3	//"Guardian Gloves"	
+
+11	13	7	1	1	3	//"Spirit Boots"			
+11	9	7	1	1	3	//"Plate Boots"		
+11	25	7	1	1	3	//"Light Plate Boots"		
+11	3	7	1	1	3	//"Legendary Boots"	
+11	40	7	1	1	3	//"Red Wing Boots"	
+
+13	22	0	1	1	3	//"Ring of Earth"		
+13	26	0	1	1	3	//"Pendant of Wind"		
+13	23	0	1	1	3	//"Ring of Wind"			
+13	27	0	1	1	3	//"Pendant of Water"	
+13	24	0	1	1	3	//"Ring of Magic"			
+13	28	0	1	1	3	//"Pendant of Ability"	
+
+12	15	0	0	0	0                //"Jewel of Chaos"
+14	13	0	0	0	0                //"Jewel of Bless"
+14	14	0	0	0	0                //"Jewel of Soul"
+

@@ -1,0 +1,7 @@
+Microsoft SQL Server Downloads
+
+
+SQL 2005 Server Express (x32/x64): http://www.microsoft.com/download/en/details.aspx?id=21844
+SQL 2005 Management Studio Express (x32/x64): http://www.microsoft.com/download/en/details.aspx?DisplayLang=en&id=8961
+
+SQL 2008 Server Express (Includes Management Studio) (x32/x64): http://www.microsoft.com/download/en/details.aspx?displaylang=en&id=23650
